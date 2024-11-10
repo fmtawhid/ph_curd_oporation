@@ -3,7 +3,7 @@
     define("HOSTNAME", "localhost");
     define("USERNAME", "root");
     define("PASSWORD", "");
-    define("DATABASE", "tawhiddb");
+    define("DATABASE", "test");
 
 
     $connection = mysqli_connect(HOSTNAME, USERNAME, PASSWORD, DATABASE);
@@ -12,7 +12,7 @@
         die (" Hello Faild ");
     }
     else{
-        echo " Yess ";
+        
     }
 
 
